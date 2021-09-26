@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+python-dateutil = "*"
+gunicorn = "*"
+django-heroku = "*"
+django-bootstrap4 = "*"
+django-bootstrap-datepicker-plus = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
